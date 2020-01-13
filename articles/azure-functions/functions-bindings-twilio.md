@@ -391,9 +391,9 @@ The following table explains the binding configuration properties that you set i
 
 | v1 function.json property | v2 function.json property | Attribute property |Description|
 |---------|---------|---------|----------------------|
-|**type**|**type**| must be set to `twilioSms`.|
-|**direction**|**direction**| must be set to `out`.|
-|**name**|**name**| Variable name used in function code for the Twilio SMS text message. |
+|**type**|**type**| n/a| Must be set to `twilioSms`.|
+|**direction**|**direction**| n/a| Must be set to `out`.|
+|**name**|**name**| n/a| Variable name used in function code for the Twilio SMS text message. |
 |**accountSid**|**accountSidSetting**| **AccountSidSetting**| This value must be set to the name of an app setting that holds your Twilio Account Sid e.g. TwilioAccountSid. If not set, the default app setting name is "AzureWebJobsTwilioAccountSid". |
 |**authToken**|**authTokenSetting**|**AuthTokenSetting**| This value must be set to the name of an app setting that holds your Twilio authentication token e.g. TwilioAccountAuthToken. If not set, the default app setting name is "AzureWebJobsTwilioAuthToken". |
 |**to**| N/A - specify in code | **To**| This value is set to the phone number that the SMS text is sent to.|
